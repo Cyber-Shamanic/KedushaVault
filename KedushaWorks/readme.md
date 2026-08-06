@@ -1,5 +1,7 @@
 # 🧰 מפת הפיתוח של אוצר הקדושה — **KedushaWorks (KW)**
 
+<img alt="KedushaWorks-Document-Header-v1" src="KedushaWorks-Document-Header-v1.png"/>
+
 ### *Kedusha + Works | קדושה שהופכת לעבודה מעשית*
 
 אחי היקר, על בסיס 16 שערי הספר והתוצרים שכבר הכנו — הסיכום, 128 הליקוטים, 16 הקלפים והמאגר — בניתי מפת המשך של **128 כלים וחומרי צידה חדשים**.
