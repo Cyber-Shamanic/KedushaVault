@@ -1,0 +1,14 @@
+{
+  "project": "KedushaPath (KP)",
+  "version": "1.0.0",
+  "cards": 16,
+  "sides": 32,
+  "covers": 2,
+  "trim_cm": [
+    10,
+    15
+  ],
+  "bleed_mm": 3,
+  "dpi": 300,
+  "source": "אוצר הקדושה — רבי אליעזר שלמה שיק"
+}
