@@ -1,0 +1,14 @@
+{
+  "name": "kedusha-vault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "אוצר הקדושה — מסמכים, קלפים ואתר גלריה עברי",
+  "scripts": {
+    "check:js": "node --check assets/js/markdown.js && node --check assets/js/app.js && node --check sw.js",
+    "validate": "python3 scripts/validate_repo.py && npm run check:js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "KedushaVault",
+  "version": "1.0.0",
+  "released": "2026-08-06",
+  "hebrew_date": "כ״ג באב ה׳תשפ״ו",
+  "status": "stable",
+  "contents": {
+    "source_book_pages": 417,
+    "summary_pages": 38,
+    "chapters": 16,
+    "anthology_items": 128,
+    "card_fronts": 16,
+    "card_backs": 16,
+    "covers": 2,
+    "print_pdfs": 2,
+    "todo_items": 100
+  },
+  "quality": {
+    "rtl": true,
+    "offline_shell": true,
+    "github_pages": true,
+    "sha256_manifest": "SHA256SUMS.txt",
+    "validation_command": "python3 scripts/validate_repo.py"
+  }
+}

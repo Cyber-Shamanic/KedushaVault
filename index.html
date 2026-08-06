@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="אוצר הקדושה — סיכום מלא, 128 ליקוטים וסדרת 16 קלפים להדפסה.">
+  <meta property="og:title" content="אוצר הקדושה — KedushaVault">
+  <meta property="og:description" content="16 שערים, 128 ליקוטים וסדרת קלפים דו־צדדית להדפסה.">
+  <meta property="og:image" content="cards/preview/KedushaPath_Fronts_Preview.jpg">
+  <title>אוצר הקדושה — KedushaVault</title>
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">דלגו לתוכן</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="אוצר הקדושה — דף הבית">
+      <span class="brand-mark" aria-hidden="true">🕯️</span>
+      <span><strong>אוצר הקדושה</strong><small>KedushaVault · KV</small></span>
+    </a>
+    <nav class="nav" aria-label="ניווט ראשי">
+      <a href="#chapters">השערים</a>
+      <a href="#downloads">הורדות</a>
+      <button class="nav-button" type="button" data-doc="TODO.md" data-title="מפת הפיתוח">מפת פיתוח</button>
+      <button class="nav-button" type="button" data-about>אודות</button>
+      <button class="icon-button" type="button" data-theme aria-label="החלפת ערכת צבעים">☀️</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <button class="version-badge" type="button" data-doc="CHANGELOG.md" data-title="יומן גרסאות">
+          מהדורה 1.0.0 · כ״ג באב ה׳תשפ״ו
+        </button>
+        <p class="eyebrow">מסע מעשי ב־16 שערים</p>
+        <h1 id="hero-title">מן הדמעה אל<br><span>מאירת העיניים</span></h1>
+        <p class="hero-lead">מהדורת לימוד והדפסה מלאה: ספר המקור, סיכום פרשני, 128 ליקוטים, 64 פעולות וסדרת קלפים דו־צדדית שנועדה להפוך רעיון לעבודה יומית.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="documents/Otzar_HaKedusha_Full_Summary_HE.pdf">📘 קריאת הסיכום</a>
+          <a class="button secondary" href="#chapters">🃏 פתיחת הקלפים</a>
+          <button class="button ghost" type="button" data-random>✨ שער אקראי</button>
+        </div>
+        <dl class="stats" aria-label="נתוני המהדורה">
+          <div><dt>16</dt><dd>שערים</dd></div>
+          <div><dt>128</dt><dd>ליקוטים</dd></div>
+          <div><dt>64</dt><dd>פעולות</dd></div>
+          <div><dt>38</dt><dd>עמודי סיכום</dd></div>
+        </dl>
+      </div>
+      <figure class="hero-art">
+        <span class="orbit orbit-one" aria-hidden="true"></span>
+        <span class="orbit orbit-two" aria-hidden="true"></span>
+        <img src="cards/covers/cover-front.png" alt="כריכת סדרת הקלפים אוצר הקדושה" width="1252" height="1842">
+        <figcaption>כריכה קדמית · מהדורת 300 DPI</figcaption>
+      </figure>
+    </section>
+
+    <section class="path-strip" aria-label="מהלך הספר">
+      <div class="section-shell path-grid">
+        <article><span>01</span><strong>זעקה</strong><small>לזהות את הכאב בלי להיכנע לייאוש</small></article>
+        <article><span>02</span><strong>בירור</strong><small>להחליף הסתרה בדיבור ובחשבון ישר</small></article>
+        <article><span>03</span><strong>טהרה</strong><small>לבנות תפילה, תורה, שמחה ומידות</small></article>
+        <article><span>04</span><strong>ראייה</strong><small>להפוך את המבט לכלי של אמונה</small></article>
+      </div>
+    </section>
+
+    <section class="chapters section-shell" id="chapters" aria-labelledby="chapters-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KedushaPath · KP</p>
+          <h2 id="chapters-title">🃏 שישה־עשר שערי העבודה</h2>
+          <p>לחצו על קלף כדי לעבור בין החזית לגב. פתחו אותו למסך מלא לקריאה ולהורדה.</p>
+        </div>
+        <div class="controls" role="search">
+          <label class="search-field">
+            <span class="sr-only">חיפוש שער</span>
+            <input type="search" id="chapter-search" placeholder="חיפוש בשם או בתוכן…" autocomplete="off">
+            <span aria-hidden="true">⌕</span>
+          </label>
+          <div class="segmented" aria-label="סינון שערים">
+            <button class="active" type="button" data-filter="all">הכול</button>
+            <button type="button" data-filter="recovery">תשובה וברית</button>
+            <button type="button" data-filter="eyes">קדושת העיניים</button>
+          </div>
+        </div>
+      </div>
+      <p class="result-count" id="result-count" aria-live="polite">טוען את השערים…</p>
+      <div class="cards-grid" id="cards-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="downloads" id="downloads" aria-labelledby="downloads-title">
+      <div class="section-shell">
+        <div class="section-heading light">
+          <div>
+            <p class="eyebrow">כל התוצרים במקום אחד</p>
+            <h2 id="downloads-title">📥 מרכז ההורדות</h2>
+          </div>
+        </div>
+        <div class="download-grid">
+          <a class="download-card featured" href="documents/Otzar_HaKedusha_Full_Summary_HE.pdf">
+            <span class="download-icon">📘</span><span><strong>סיכום מלא וליקוטים</strong><small>PDF · 38 עמודים · 128 ליקוטים</small></span><b>↓</b>
+          </a>
+          <a class="download-card" href="documents/Otzar_HaKedusha_Full_Summary_HE.docx">
+            <span class="download-icon">📝</span><span><strong>גרסת Word לעריכה</strong><small>DOCX · עימוד עברי מלא</small></span><b>↓</b>
+          </a>
+          <a class="download-card" href="cards/print/KedushaPath_16_Cards_Print_10x15cm.pdf">
+            <span class="download-icon">🖨️</span><span><strong>דפוס מקצועי 10×15</strong><small>PDF · 34 צדדים · Bleed ‏3 מ״מ</small></span><b>↓</b>
+          </a>
+          <a class="download-card" href="cards/print/KedushaPath_16_Cards_A4_Duplex.pdf">
+            <span class="download-icon">✂️</span><span><strong>דפוס ביתי A4</strong><small>PDF · 18 גיליונות דו־צדדיים</small></span><b>↓</b>
+          </a>
+          <a class="download-card" href="book/Otzar_HaKedusha_Rabbi_Eliezer_Shlomo_Shick.pdf">
+            <span class="download-icon">📖</span><span><strong>ספר המקור</strong><small>PDF · 417 עמודים</small></span><b>↓</b>
+          </a>
+          <button class="download-card" type="button" data-share>
+            <span class="download-icon">🔗</span><span><strong>שיתוף המהדורה</strong><small>העתקת הקישור או שיתוף ישיר</small></span><b>↗</b>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="method section-shell" aria-labelledby="method-title">
+      <div class="method-copy">
+        <p class="eyebrow">מן הלימוד אל המעשה</p>
+        <h2 id="method-title">🧭 ארבע שכבות בכל שער</h2>
+        <ol class="method-list">
+          <li><span>א</span><div><strong>רעיון מרכזי</strong><p>תמצית הכיוון שהפרק מבקש לבנות בנפש.</p></div></li>
+          <li><span>ב</span><div><strong>משפט אור</strong><p>שורה קצרה שנשארת בזיכרון ומחזירה אל הדרך.</p></div></li>
+          <li><span>ג</span><div><strong>ארבע פעולות</strong><p>צעדים קטנים שאפשר לבצע היום בלי להמתין לתנאים מושלמים.</p></div></li>
+          <li><span>ד</span><div><strong>שאלת דרך</strong><p>שאלה אישית שמתרגמת את הלימוד לבחירה מעשית.</p></div></li>
+        </ol>
+      </div>
+      <blockquote>
+        <span>״</span>
+        <p>הדמעה אינה סוף הדרך; היא יכולה להיות תחילתה של תפילה אמיתית.</p>
+        <cite>ליקוט מעובד · שער 01</cite>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-shell footer-grid">
+      <div><strong>🕯️ אוצר הקדושה</strong><p>מהדורת KedushaVault 1.0.0</p></div>
+      <div><strong>קרדיטים</strong><p>Cyber Shamanic · לאון יעקובוב (AnLoMinus)</p></div>
+      <div class="footer-links">
+        <a href="mailto:GlobalElite8200@gmail.com">דוא״ל</a>
+        <a href="https://wa.me/972543285967">WhatsApp</a>
+        <a href="https://github.com/Cyber-Shamanic">GitHub</a>
+        <button type="button" data-about>אודות</button>
+      </div>
+    </div>
+    <p class="verse">״לֵב טָהוֹר בְּרָא לִי אֱלֹהִים; וְרוּחַ נָכוֹן חַדֵּשׁ בְּקִרְבִּי״ — תהלים נא, יב.</p>
+  </footer>
+
+  <dialog class="modal" id="content-modal">
+    <div class="modal-shell">
+      <header><h2 id="modal-title">פרטים</h2><button type="button" data-close aria-label="סגירת החלון">×</button></header>
+      <div class="modal-body markdown" id="modal-body"></div>
+    </div>
+  </dialog>
+
+  <dialog class="lightbox" id="card-modal">
+    <div class="lightbox-shell">
+      <header><div><small id="lightbox-number"></small><h2 id="lightbox-title"></h2></div><button type="button" data-card-close aria-label="סגירת הקלף">×</button></header>
+      <div class="lightbox-stage"><img id="lightbox-image" alt=""></div>
+      <footer>
+        <button class="button secondary" type="button" data-lightbox-flip>↻ הפיכת הקלף</button>
+        <a class="button primary" id="lightbox-download" download>↓ הורדת הצד המוצג</a>
+      </footer>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/chapters.js" defer></script>
+  <script src="data/docs.js" defer></script>
+  <script src="assets/js/markdown.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

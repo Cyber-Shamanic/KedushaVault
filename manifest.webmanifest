@@ -1,0 +1,14 @@
+{
+  "name": "אוצר הקדושה — KedushaVault",
+  "short_name": "KedushaVault",
+  "description": "16 שערים, 128 ליקוטים וסדרת קלפים להדפסה.",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#071426",
+  "theme_color": "#071426",
+  "icons": [
+    {"src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

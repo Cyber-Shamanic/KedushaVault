@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "KedushaVault — אוצר הקדושה"
+message: "When citing this educational edition, credit the original book and the editorial project."
+type: dataset
+version: 1.0.0
+date-released: 2026-08-06
+authors:
+  - family-names: "Yaakovov"
+    given-names: "Leon"
+    alias: "AnLoMinus / Cyber Shamanic"
+repository-code: "https://github.com/Cyber-Shamanic"
+keywords:
+  - Hebrew
+  - Kedusha
+  - Breslov
+  - study cards
+  - RTL
+abstract: "A Hebrew RTL study edition containing a 16-chapter summary, 128 processed excerpts, a 16-card printable deck and a static gallery."

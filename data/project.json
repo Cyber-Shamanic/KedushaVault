@@ -1,0 +1,26 @@
+{
+  "project": "KedushaVault",
+  "short_name": "KV",
+  "version": "1.0.0",
+  "language": "he",
+  "direction": "rtl",
+  "released": "2026-08-06",
+  "hebrew_date": "כ״ג באב ה׳תשפ״ו",
+  "source_book": {
+    "title": "אוצר הקדושה",
+    "author": "רבי אליעזר שלמה שיק",
+    "pages": 417
+  },
+  "edition": {
+    "chapters": 16,
+    "anthology_items": 128,
+    "practical_actions": 64,
+    "reflection_questions": 16,
+    "summary_pages": 38,
+    "card_sides": 32,
+    "covers": 2,
+    "dpi": 300,
+    "trim_cm": [10, 15],
+    "bleed_mm": 3
+  }
+}
